@@ -203,3 +203,4 @@ class Immobiliare:
         self.df_ = pd.DataFrame(all_results)
         self._say("Results stored in attribute 'df_'")
         print(f"Numero di case trovate: {len(all_results)}")
+        self.df_ .head()
